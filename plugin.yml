@@ -1,0 +1,12 @@
+name: LNPC
+author: Lazer
+version: 1.0
+description: an NPC plugin for PocketMine-MP
+main: slapper\Main
+api: 2.0.0
+
+commands:
+  npc:
+    description: Create a Slapper NPC, or edit an existing one!
+    usage: "/npc ?"
+    permission: lnpc.command
